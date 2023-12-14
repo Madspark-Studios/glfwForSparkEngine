@@ -1,0 +1,107 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33130.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/dev/spark/sparkengine/vendor/glfw/src/platform.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "ce155ac37c0fb3c3e059602c225ee8bda952d47ba7f7abddef1ce7d23c5bf1cc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/spark/sparkengine/vendor/glfw/src/internal.h"
+          },
+          "hashes": {
+            "sha-256": "e2b17ed0a43c3016190619935a2f5f897fbed481050552a37743c69992c4a319"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/spark/sparkengine/vendor/glfw/include/glfw/glfw3.h"
+          },
+          "hashes": {
+            "sha-256": "80a00bab0d27c2fcb381fba27877d48132cef6a10feb5c82fe0bdce4ec95c6c6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/spark/sparkengine/vendor/glfw/src/platform.h"
+          },
+          "hashes": {
+            "sha-256": "f233c482c7c6d9ffd0d6427da12b76e0db0db67c2a96fb126672c719bafe6907"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/spark/sparkengine/vendor/glfw/src/null_platform.h"
+          },
+          "hashes": {
+            "sha-256": "5218995743ab4e134c553c162221a87679e51fb025292373e98e50fe83c43914"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/spark/sparkengine/vendor/glfw/src/win32_platform.h"
+          },
+          "hashes": {
+            "sha-256": "0e312ae79e1577ac78a6ae2057949090b7acc62900828b4a102033474c581b41"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/spark/sparkengine/vendor/glfw/src/null_joystick.h"
+          },
+          "hashes": {
+            "sha-256": "35204b4fdac1b3709abba72752a76b159f46960b376088a7084d4091a7799878"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/spark/sparkengine/vendor/glfw/src/win32_joystick.h"
+          },
+          "hashes": {
+            "sha-256": "cbc0a9eb0244d21d0e232fc00b8034f9823e473633fd61779a1c698a2d143e4d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/spark/sparkengine/vendor/glfw/src/win32_thread.h"
+          },
+          "hashes": {
+            "sha-256": "c8a4581760ced98d7ddfae1669a719be5815b3e3c591488a65a636305c75944e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/dev/spark/sparkengine/vendor/glfw/src/win32_time.h"
+          },
+          "hashes": {
+            "sha-256": "95d9f56db8a87f9195757b395f0917e4d4e682ee833ee4bb6e2c8c4ffb81b936"
+          }
+        }
+      ]
+    }
+  ]
+}
